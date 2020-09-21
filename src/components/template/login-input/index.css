@@ -1,0 +1,29 @@
+.input {
+    position: relative;
+    margin-left: 20px;
+}
+
+.input input {
+    padding: 3px;
+    outline: none;
+}
+
+.input label {
+    position: absolute;
+    bottom: 100%;
+    display: block;
+    font-size: 14px;
+    opacity: .5;
+    margin-bottom: 5px;
+}
+
+.input a {
+    display: block;
+    position: absolute;
+    text-decoration: none;
+    top: calc(100% + 3px);
+    font-size: 14px;
+    opacity: .5;
+    color: #fff;
+    font-weight: 200;
+}

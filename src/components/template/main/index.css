@@ -1,0 +1,8 @@
+main {
+    background-image: linear-gradient(to top, #dfe3eb, #fff);
+    min-height: 100vh;
+}
+
+main .container {
+    display: flex;
+}

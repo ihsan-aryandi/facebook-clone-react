@@ -1,0 +1,20 @@
+.connection {
+    flex: 1.3;
+    padding: 10px 0;
+}
+
+.connection .img-connection {
+    width: 90%;
+}
+
+.connection .img-connection img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.connection h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #22468a;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,101 @@
+.signup {
+    flex: 1;
+}
+
+.signup h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.signup h2 {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-group input:first-child {
+    margin-left: 0;
+}
+
+.form-group input {
+    margin-left: 20px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.birthday .form-input {
+    max-width: 80px;
+    margin-bottom: 0;
+    font-size: 18px;
+    padding: 8px;
+}
+
+.birthday {
+    margin: 20px 0;
+}
+
+.birthday h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.birthday a {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #3465c2;
+    text-decoration: none;
+}
+
+.gender {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gender .radio {
+    margin-right: 20px;
+}
+
+.gender .radio label {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.signup small {
+    color: #555;
+}
+
+.signup small a {
+    text-decoration: none;
+    color: #3465c2;
+}
+
+.signup button {
+    margin-top: 20px;
+    padding: 10px 58px;
+    display: block;
+    font-size: 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: #2fa338;
+    color: #fff;
+    transition: .3s;
+}
+
+.signup button:hover {
+    opacity: .8;
+}
